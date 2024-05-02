@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+main {
+    width: 100%;
+}
+.header {
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #fff;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);;
+}
+
+.bar-item{
+    margin-left: 25px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #000;
+}
+
+.bar-item-category {
+    margin-right: 25px;
+    letter-spacing: 4px;
+}
+
+.category {
+    color: #000;
+    text-decoration: none;
+}
+
+.burger {
+    width: 80%;
+    height: auto;
+    margin-left: 140px;
+    
+}
+
+@media screen and (max-width: 1115px) {
+    .burger {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .nav-bar {
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .nav-bar {
+        height: 80px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .bar-item-category {
+        margin-left: 20px;
+        display: none;
+    }
+
+    .burger {
+        height: 250px;
+        width: 500px;
+    }
+}
