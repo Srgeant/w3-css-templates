@@ -159,7 +159,7 @@ main {
 }
 
 hr {
-    width: 80%;
+    width: 85%;
     height: 1px;
     color: #EEEEEE;
     margin-top: 90px;
@@ -208,13 +208,93 @@ hr {
 
 .img3-div > img {
     margin-top: 90px;
-    width: 76%;
+    width: 83%;
     height: auto;
     border-radius: 5px;
     opacity: 0.7;
     align-items: end;
 }
 
+.section-contact {
+    width: 95%;
+    position: relative;
+}
+
+.contact-div {
+    display: inline-block;
+}
+
+.contact-info-div {
+    width: 92%;
+    height: 10;
+    padding-left: 150px;
+}
+
+.contact-info-div > h1 {
+    margin-top: 55px;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 110px;
+    letter-spacing: 4px;
+}
+
+.contact-info-div > .contact-p1 {
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.contact-info-div > .contact-p2 {
+    line-height: 60px;
+    font-size: 18px;
+    color: #607d8b;
+}
+
+.contact-info-div > .contact-p3 {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.input-div {
+    width: 92%;
+    height: 10;
+    padding-left: 150px;
+    padding-top: 15px;
+}
+
+input {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;;
+    font-size: 1.3rem;
+    color: #757575;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.submit-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+}
+
+.footer-paragraph > a {
+    color: #000;
+    font-size: 15px;
+}
 
 @media screen and (max-width: 490px) {
     .nav-bar {
@@ -330,6 +410,14 @@ hr {
     hr {
         width: 105%;
         margin-left: 0;
+    }
+
+    .contact-info-div {
+        padding-left: 30px;
+    }
+
+    .input-div {
+        padding-left: 30px;
     }
 }
 
