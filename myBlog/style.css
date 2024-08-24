@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.headerDiv {
+    text-align: center;
+    padding-top: 50px;
+    height: 190px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.headerDiv > p {
+    padding-top: 20px;
+}
+
+.headerSpan{
+    background-color: black;
+    color: #fff;
+    padding: 3px 5px;
+}
+
+.sec1Div {
+    width: 950px;
+    margin-left: 230px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+.sec1Div > img {
+    width: 950px;
+}
+
+.sec1Div > h3 {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.sec1Div > h5 {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sec1Div > h5 > span {
+    color: rgb(102,102,102);
+}
+
+.sec1Div > p {
+    padding-top: 30px;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 25px;
+}
+
+.btnDiv {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnRead > button {
+    border: 1px solid rgb(204,204,204);
+    background-color: #fff;
+    font-size: 16px;
+    padding: 18px 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btnRead > button:hover {
+    background-color: rgb(204,204,204);
+}
+
+.commentsDiv > span {
+    margin-right: 30px;
+}
+
+span > .span0 {
+    background-color: black;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+.sec1Div2 {
+    width: 950px;
+    margin-left: 230px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 40px;
+}
+
+.sec1Div2 > img {
+    width: 950px;
+}
+
+.sec1Div2 > h3 {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.sec1Div2 > h5 {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sec1Div2 > h5 > span {
+    color: rgb(102,102,102);
+}
+
+.sec1Div2 > p {
+    padding-top: 30px;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 25px;
+}
+
+.btnDiv2 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnReadMore > button {
+    border: 1px solid rgb(204,204,204);
+    background-color: #fff;
+    font-size: 16px;
+    padding: 18px 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btnReadMore > button:hover {
+    background-color: rgb(204,204,204);
+}
+
+.commentsDiv2 > span {
+    margin-right: 30px;
+}
+
+span > .span2 {
+    background-color: black;
+    border-radius: 50%;
+    color: #fff;
+    padding: 4px 8px;
+}
